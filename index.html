@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Project 1</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="header_logo">
+          <img src="./logo.svg" alt="">
+        </div>
+        <div class="header_breadcrumbs"> 
+          <button class="header_breadcrumbs_btn"><img src="./home.svg" alt="">
+          </button>        
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 18.6486L23 11.8243L15 5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M1 18.6486L9 11.8243L1 5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <button class="header_breadcrumbs_btn">eCommerce</button>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 18.6486L23 11.8243L15 5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M1 18.6486L9 11.8243L1 5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p>Electronics</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="filters">
+          <div class="filters_header">
+            <p>Filters</p>
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+              <path d="M5.25 1.01916L0.583333 5L5.25 8.98083" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M13.4167 1.01916L8.75002 5L13.4167 8.98083" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+          <div class="filters_filters">
+            <div class="filters_filters_block1">
+              <p class="filters_title">Multi Range</p>
+              <div class="filters_filters_block1_range">
+                <input type="checkbox" type="checkbox" class="price" value="$10" />
+                <label for="$10">$10</label>
+              </div>
+              <div class="filters_filters_block1_range">
+                <input type="checkbox" type="checkbox" class="price" value="$10-$100" />
+                <label for="$10-$100">$10-$100</label>
+              </div>
+              <div class="filters_filters_block1_range">
+                <input type="checkbox" type="checkbox" class="price" value="$100-$500" />
+                <label for="$100-$500">$100-$500</label>
+              </div>
+              <div class="filters_filters_block1_range">
+                <input type="checkbox" type="checkbox" class="price" value="$500" />
+                <label for="$500">$500</label>
+              </div>
+              <div class="filters_filters_block1_range">
+                <input type="checkbox" type="checkbox" class="price" value="All" />
+                <label for="All">All</label>
+              </div>
+            </div>
+            <div class="filters_filters_block2">
+              <p class="filters_title">Category</p>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Cell Phones" class="name" value="Cell Phones" />
+                  <label for="Cell Phones">Cell Phones</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>1920</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Computers & Tablets" class="name" value="Computers & Tablets" />
+                  <label for="Computers & Tablets">Computers & Tablets</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>1820</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Cell Phone Accessories" class="name" value="Cell Phone Accessories" />
+                  <label for="Cell Phone Accessories">Cell Phone Accessories</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>463</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Appliances" class="name" value="Appliances" />
+                  <label for="Appliances">Appliances</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>6565</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Audio" class="name" value="Audio" />
+                  <label for="Audio">Audio</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>120</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="iPhone Accessories" class="name" value="iPhone Accessories" />
+                  <label for="iPhone Accessories">iPhone Accessories</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>353</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Cameras & Camcorders" class="name" value="Cameras & Camcorders" />
+                  <label for="Cameras & Camcorders">Cameras & Camcorders</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>45</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="iPhone Cases & Clips" class="name" value="iPhone Cases & Clips" />
+                  <label for="iPhone Cases & Clips">iPhone Cases & Clips</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>456</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="TV & Home Theater" class="name" value="TV & Home Theater" />
+                  <label for="TV & Home Theater">TV & Home Theater</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>55</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Small Kitchen Appliances" class="name" value="Small Kitchen Appliances" />
+                  <label for="Small Kitchen Appliances">Small Kitchen Appliances</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>10</p>
+                </div>
+              </div>
+            </div>
+            <div class="filters_filters_block3">
+              <p class="filters_title">Brand</p>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Insigni" class="name" value="Insigni" />
+                  <label for="Insigni">Insigni</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>1920</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Samsung" class="name" value="Samsung" />
+                  <label for="Samsung">Samsung</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>1820</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Apple" class="name" value="Apple" />
+                  <label for="Apple">Apple</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>463</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="HP" class="name" value="HP" />
+                  <label for="HP">HP</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>6565</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Sony" class="name" value="Sony" />
+                  <label for="Sony">Sony</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>120</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Metra" class="name" value="Metra" />
+                  <label for="Metra">Metra</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>353</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Dyne" class="name" value="Dyne" />
+                  <label for="Dyne">Dyne</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>45</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="LG" class="name" value="LG" />
+                  <label for="LG">LG</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>456</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Canon" class="name" value="Canon" />
+                  <label for="Canon">Canon</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>55</p>
+                </div>
+              </div>
+              <div class="filters_filters_block2_category">
+                <div class="filters_filters_block2_category_1">
+                  <input type="checkbox" id="Speck" class="name" value="Speck" />
+                  <label for="Speck">Speck</label>
+                </div>
+                <div class="filters_filters_block2_category_2">
+                  <p>10</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filters_btn">
+            <button class="filters_btn_button">CLEAR ALL FILTERS</button>
+          </div>
+        </div>
+        <div class="main">
+          <div class="main_header">
+            <p>7,618 results found</p>
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5283 2.45411C18.5331 1.41636 17.1831 0.833313 15.7754 0.833313C14.3676 0.833313 13.0176 1.41636 12.0224 2.45411L10.9998 3.52001L9.97711 2.45411C7.90441 0.293764 4.54391 0.293764 2.47121 2.45411C0.398513 4.61446 0.398513 8.11708 2.47121 10.2774L3.49386 11.3433L10.9998 19.1666L18.5057 11.3433L19.5283 10.2774C20.524 9.24016 21.0834 7.83303 21.0834 6.36577C21.0834 4.89851 20.524 3.49138 19.5283 2.45411Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+          <div class="main_search">
+            <p>Search</p>
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.589 20.0556C15.8848 20.0556 20.1779 15.6779 20.1779 10.2778C20.1779 4.87766 15.8848 0.5 10.589 0.5C5.29313 0.5 1 4.87766 1 10.2778C1 15.6779 5.29313 20.0556 10.589 20.0556Z" stroke="#606060" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M22.5751 22.5L16.582 16.3889" stroke="#606060" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+          <div class="main_grid">
+            <div class="main_grid_card">
+              <div class="main_grid_card_body">
+                <div class="main_grid_card_body_img"></div>
+                <div class="main_grid_card_body_block1">
+                  <div class="main_grid_card_body_block1_star">
+                    <p style="color: #fff;font-size: 14px;font-weight: 400;line-height: 21px;">4.7</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00002 0.833374L10.266 5.28925L15.3334 6.00817L11.6667 9.47464L12.532 14.3718L8.00002 12.0585L3.46802 14.3718L4.33335 9.47464L0.666687 6.00817L5.73402 5.28925L8.00002 0.833374Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <p style="color: #2c2c2c;font-size: 18px;font-weight: 400;line-height: 33px;">$399</p>
+                </div>
+                <div class="main_grid_card_body_block2">
+                  <p style="color: #2c2c2c;font-size: 16px;font-weight: 400;line-height: 24px">Apple Watch Series 4 GPS</p>
+                  <p style="color: #2c2c2c;font-size: 12px;font-weight: 300;line-height: 18px">Redesigned from scratch and completely revised.</p>
+                </div>
+              </div>
+              <div class="main_grid_card_footer">
+                <button class="main_grid_card_footer_wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4524 2.51214C13.7286 1.75741 12.7468 1.33337 11.723 1.33337C10.6992 1.33337 9.71735 1.75741 8.99358 2.51214L8.24983 3.28734L7.50608 2.51214C5.99867 0.940974 3.55466 0.940975 2.04725 2.51214C0.539833 4.0833 0.539833 6.63066 2.04725 8.20182L2.791 8.97702L8.24983 14.6667L13.7087 8.97702L14.4524 8.20182C15.1765 7.44745 15.5834 6.42408 15.5834 5.35698C15.5834 4.28988 15.1765 3.26651 14.4524 2.51214Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>WISHLIST</p>
+                </button>
+                <button class="main_grid_card_footer_cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.737212" fill-rule="evenodd" clip-rule="evenodd" d="M3.8611 0.666626L1.41666 3.59996V13.8666C1.41666 14.6766 2.14627 15.3333 3.04629 15.3333H14.4537C15.3537 15.3333 16.0833 14.6766 16.0833 13.8666V3.59996L13.6389 0.666626H3.8611Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M1.41666 4.33331H16.0833" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M12.4166 7.18518C12.4166 8.53521 10.9802 9.62962 9.20824 9.62962C7.43633 9.62962 5.99991 8.53521 5.99991 7.18518" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>ADD TO CART</p>
+                </button>
+              </div>
+            </div>
+            <div class="main_grid_card">
+              <div class="main_grid_card_body">
+                <div class="main_grid_card_body_img2"></div>
+                <div class="main_grid_card_body_block1">
+                  <p style="color: #2c2c2c;font-size: 18px;font-weight: 400;line-height: 33px;">$399</p>
+                </div>
+                <div class="main_grid_card_body_block2">
+                  <p style="color: #2c2c2c;font-size: 16px;font-weight: 400;line-height: 24px">Apple Watch Series 4 GPS</p>
+                  <p style="color: #2c2c2c;font-size: 12px;font-weight: 300;line-height: 18px">Redesigned from scratch and completely revised.</p>
+                </div>
+              </div>
+              <div class="main_grid_card_footer">
+                <button class="main_grid_card_footer_wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4524 2.51214C13.7286 1.75741 12.7468 1.33337 11.723 1.33337C10.6992 1.33337 9.71735 1.75741 8.99358 2.51214L8.24983 3.28734L7.50608 2.51214C5.99867 0.940974 3.55466 0.940975 2.04725 2.51214C0.539833 4.0833 0.539833 6.63066 2.04725 8.20182L2.791 8.97702L8.24983 14.6667L13.7087 8.97702L14.4524 8.20182C15.1765 7.44745 15.5834 6.42408 15.5834 5.35698C15.5834 4.28988 15.1765 3.26651 14.4524 2.51214Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>WISHLIST</p>
+                </button>
+                <button class="main_grid_card_footer_cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.737212" fill-rule="evenodd" clip-rule="evenodd" d="M3.8611 0.666626L1.41666 3.59996V13.8666C1.41666 14.6766 2.14627 15.3333 3.04629 15.3333H14.4537C15.3537 15.3333 16.0833 14.6766 16.0833 13.8666V3.59996L13.6389 0.666626H3.8611Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M1.41666 4.33331H16.0833" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M12.4166 7.18518C12.4166 8.53521 10.9802 9.62962 9.20824 9.62962C7.43633 9.62962 5.99991 8.53521 5.99991 7.18518" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>ADD TO CART</p>
+                </button>
+              </div>
+            </div>
+            <div class="main_grid_card">
+              <div class="main_grid_card_body">
+                <div class="main_grid_card_body_img3"></div>
+                <div class="main_grid_card_body_block1">
+                  <div class="main_grid_card_body_block1_star">
+                    <p style="color: #fff;font-size: 14px;font-weight: 400;line-height: 21px;">4.7</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00002 0.833374L10.266 5.28925L15.3334 6.00817L11.6667 9.47464L12.532 14.3718L8.00002 12.0585L3.46802 14.3718L4.33335 9.47464L0.666687 6.00817L5.73402 5.28925L8.00002 0.833374Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <p style="color: #2c2c2c;font-size: 18px;font-weight: 400;line-height: 33px;">$399</p>
+                </div>
+                <div class="main_grid_card_body_block2">
+                  <p style="color: #2c2c2c;font-size: 16px;font-weight: 400;line-height: 24px">Apple Watch Series 4 GPS</p>
+                  <p style="color: #2c2c2c;font-size: 12px;font-weight: 300;line-height: 18px">Redesigned from scratch and completely revised.</p>
+                </div>
+              </div>
+              <div class="main_grid_card_footer">
+                <button class="main_grid_card_footer_wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4524 2.51214C13.7286 1.75741 12.7468 1.33337 11.723 1.33337C10.6992 1.33337 9.71735 1.75741 8.99358 2.51214L8.24983 3.28734L7.50608 2.51214C5.99867 0.940974 3.55466 0.940975 2.04725 2.51214C0.539833 4.0833 0.539833 6.63066 2.04725 8.20182L2.791 8.97702L8.24983 14.6667L13.7087 8.97702L14.4524 8.20182C15.1765 7.44745 15.5834 6.42408 15.5834 5.35698C15.5834 4.28988 15.1765 3.26651 14.4524 2.51214Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>WISHLIST</p>
+                </button>
+                <button class="main_grid_card_footer_cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.737212" fill-rule="evenodd" clip-rule="evenodd" d="M3.8611 0.666626L1.41666 3.59996V13.8666C1.41666 14.6766 2.14627 15.3333 3.04629 15.3333H14.4537C15.3537 15.3333 16.0833 14.6766 16.0833 13.8666V3.59996L13.6389 0.666626H3.8611Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M1.41666 4.33331H16.0833" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M12.4166 7.18518C12.4166 8.53521 10.9802 9.62962 9.20824 9.62962C7.43633 9.62962 5.99991 8.53521 5.99991 7.18518" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>ADD TO CART</p>
+                </button>
+              </div>
+            </div>
+            <div class="main_grid_card">
+              <div class="main_grid_card_body">
+                <div class="main_grid_card_body_img4"></div>
+                <div class="main_grid_card_body_block1">
+                  <p style="color: #2c2c2c;font-size: 18px;font-weight: 400;line-height: 33px;">$399</p>
+                </div>
+                <div class="main_grid_card_body_block2">
+                  <p style="color: #2c2c2c;font-size: 16px;font-weight: 400;line-height: 24px">Apple Watch Series 4 GPS</p>
+                  <p style="color: #2c2c2c;font-size: 12px;font-weight: 300;line-height: 18px">Redesigned from scratch and completely revised.</p>
+                </div>
+              </div>
+              <div class="main_grid_card_footer">
+                <button class="main_grid_card_footer_wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4524 2.51214C13.7286 1.75741 12.7468 1.33337 11.723 1.33337C10.6992 1.33337 9.71735 1.75741 8.99358 2.51214L8.24983 3.28734L7.50608 2.51214C5.99867 0.940974 3.55466 0.940975 2.04725 2.51214C0.539833 4.0833 0.539833 6.63066 2.04725 8.20182L2.791 8.97702L8.24983 14.6667L13.7087 8.97702L14.4524 8.20182C15.1765 7.44745 15.5834 6.42408 15.5834 5.35698C15.5834 4.28988 15.1765 3.26651 14.4524 2.51214Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>WISHLIST</p>
+                </button>
+                <button class="main_grid_card_footer_cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.737212" fill-rule="evenodd" clip-rule="evenodd" d="M3.8611 0.666626L1.41666 3.59996V13.8666C1.41666 14.6766 2.14627 15.3333 3.04629 15.3333H14.4537C15.3537 15.3333 16.0833 14.6766 16.0833 13.8666V3.59996L13.6389 0.666626H3.8611Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M1.41666 4.33331H16.0833" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M12.4166 7.18518C12.4166 8.53521 10.9802 9.62962 9.20824 9.62962C7.43633 9.62962 5.99991 8.53521 5.99991 7.18518" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>ADD TO CART</p>
+                </button>
+              </div>
+            </div>
+            <div class="main_grid_card">
+              <div class="main_grid_card_body">
+                <div class="main_grid_card_body_img5"></div>
+                <div class="main_grid_card_body_block1">
+                  <p style="color: #2c2c2c;font-size: 18px;font-weight: 400;line-height: 33px;">$399</p>
+                </div>
+                <div class="main_grid_card_body_block2">
+                  <p style="color: #2c2c2c;font-size: 16px;font-weight: 400;line-height: 24px">Apple Watch Series 4 GPS</p>
+                  <p style="color: #2c2c2c;font-size: 12px;font-weight: 300;line-height: 18px">Redesigned from scratch and completely revised.</p>
+                </div>
+              </div>
+              <div class="main_grid_card_footer">
+                <button class="main_grid_card_footer_wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4524 2.51214C13.7286 1.75741 12.7468 1.33337 11.723 1.33337C10.6992 1.33337 9.71735 1.75741 8.99358 2.51214L8.24983 3.28734L7.50608 2.51214C5.99867 0.940974 3.55466 0.940975 2.04725 2.51214C0.539833 4.0833 0.539833 6.63066 2.04725 8.20182L2.791 8.97702L8.24983 14.6667L13.7087 8.97702L14.4524 8.20182C15.1765 7.44745 15.5834 6.42408 15.5834 5.35698C15.5834 4.28988 15.1765 3.26651 14.4524 2.51214Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>WISHLIST</p>
+                </button>
+                <button class="main_grid_card_footer_cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.737212" fill-rule="evenodd" clip-rule="evenodd" d="M3.8611 0.666626L1.41666 3.59996V13.8666C1.41666 14.6766 2.14627 15.3333 3.04629 15.3333H14.4537C15.3537 15.3333 16.0833 14.6766 16.0833 13.8666V3.59996L13.6389 0.666626H3.8611Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M1.41666 4.33331H16.0833" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M12.4166 7.18518C12.4166 8.53521 10.9802 9.62962 9.20824 9.62962C7.43633 9.62962 5.99991 8.53521 5.99991 7.18518" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>ADD TO CART</p>
+                </button>
+              </div>
+            </div>
+            <div class="main_grid_card">
+              <div class="main_grid_card_body">
+                <div class="main_grid_card_body_img6"></div>
+                <div class="main_grid_card_body_block1">
+                  <p style="color: #2c2c2c;font-size: 18px;font-weight: 400;line-height: 33px;">$399</p>
+                </div>
+                <div class="main_grid_card_body_block2">
+                  <p style="color: #2c2c2c;font-size: 16px;font-weight: 400;line-height: 24px">Apple Watch Series 4 GPS</p>
+                  <p style="color: #2c2c2c;font-size: 12px;font-weight: 300;line-height: 18px">Redesigned from scratch and completely revised.</p>
+                </div>
+              </div>
+              <div class="main_grid_card_footer">
+                <button class="main_grid_card_footer_wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4524 2.51214C13.7286 1.75741 12.7468 1.33337 11.723 1.33337C10.6992 1.33337 9.71735 1.75741 8.99358 2.51214L8.24983 3.28734L7.50608 2.51214C5.99867 0.940974 3.55466 0.940975 2.04725 2.51214C0.539833 4.0833 0.539833 6.63066 2.04725 8.20182L2.791 8.97702L8.24983 14.6667L13.7087 8.97702L14.4524 8.20182C15.1765 7.44745 15.5834 6.42408 15.5834 5.35698C15.5834 4.28988 15.1765 3.26651 14.4524 2.51214Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>WISHLIST</p>
+                </button>
+                <button class="main_grid_card_footer_cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.737212" fill-rule="evenodd" clip-rule="evenodd" d="M3.8611 0.666626L1.41666 3.59996V13.8666C1.41666 14.6766 2.14627 15.3333 3.04629 15.3333H14.4537C15.3537 15.3333 16.0833 14.6766 16.0833 13.8666V3.59996L13.6389 0.666626H3.8611Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M1.41666 4.33331H16.0833" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M12.4166 7.18518C12.4166 8.53521 10.9802 9.62962 9.20824 9.62962C7.43633 9.62962 5.99991 8.53521 5.99991 7.18518" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>ADD TO CART</p>
+                </button>
+              </div>
+            </div>
+            <div class="main_grid_card">
+              <div class="main_grid_card_body">
+                <div class="main_grid_card_body_img7"></div>
+                <div class="main_grid_card_body_block1">
+                  <p style="color: #2c2c2c;font-size: 18px;font-weight: 400;line-height: 33px;">$399</p>
+                </div>
+                <div class="main_grid_card_body_block2">
+                  <p style="color: #2c2c2c;font-size: 16px;font-weight: 400;line-height: 24px">Apple Watch Series 4 GPS</p>
+                  <p style="color: #2c2c2c;font-size: 12px;font-weight: 300;line-height: 18px">Redesigned from scratch and completely revised.</p>
+                </div>
+              </div>
+              <div class="main_grid_card_footer">
+                <button class="main_grid_card_footer_wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4524 2.51214C13.7286 1.75741 12.7468 1.33337 11.723 1.33337C10.6992 1.33337 9.71735 1.75741 8.99358 2.51214L8.24983 3.28734L7.50608 2.51214C5.99867 0.940974 3.55466 0.940975 2.04725 2.51214C0.539833 4.0833 0.539833 6.63066 2.04725 8.20182L2.791 8.97702L8.24983 14.6667L13.7087 8.97702L14.4524 8.20182C15.1765 7.44745 15.5834 6.42408 15.5834 5.35698C15.5834 4.28988 15.1765 3.26651 14.4524 2.51214Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>WISHLIST</p>
+                </button>
+                <button class="main_grid_card_footer_cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.737212" fill-rule="evenodd" clip-rule="evenodd" d="M3.8611 0.666626L1.41666 3.59996V13.8666C1.41666 14.6766 2.14627 15.3333 3.04629 15.3333H14.4537C15.3537 15.3333 16.0833 14.6766 16.0833 13.8666V3.59996L13.6389 0.666626H3.8611Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M1.41666 4.33331H16.0833" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M12.4166 7.18518C12.4166 8.53521 10.9802 9.62962 9.20824 9.62962C7.43633 9.62962 5.99991 8.53521 5.99991 7.18518" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>ADD TO CART</p>
+                </button>
+              </div>
+            </div>
+            <div class="main_grid_card">
+              <div class="main_grid_card_body">
+                <div class="main_grid_card_body_img8"></div>
+                <div class="main_grid_card_body_block1">
+                  <p style="color: #2c2c2c;font-size: 18px;font-weight: 400;line-height: 33px;">$399</p>
+                </div>
+                <div class="main_grid_card_body_block2">
+                  <p style="color: #2c2c2c;font-size: 16px;font-weight: 400;line-height: 24px">Apple Watch Series 4 GPS</p>
+                  <p style="color: #2c2c2c;font-size: 12px;font-weight: 300;line-height: 18px">Redesigned from scratch and completely revised.</p>
+                </div>
+              </div>
+              <div class="main_grid_card_footer">
+                <button class="main_grid_card_footer_wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4524 2.51214C13.7286 1.75741 12.7468 1.33337 11.723 1.33337C10.6992 1.33337 9.71735 1.75741 8.99358 2.51214L8.24983 3.28734L7.50608 2.51214C5.99867 0.940974 3.55466 0.940975 2.04725 2.51214C0.539833 4.0833 0.539833 6.63066 2.04725 8.20182L2.791 8.97702L8.24983 14.6667L13.7087 8.97702L14.4524 8.20182C15.1765 7.44745 15.5834 6.42408 15.5834 5.35698C15.5834 4.28988 15.1765 3.26651 14.4524 2.51214Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>WISHLIST</p>
+                </button>
+                <button class="main_grid_card_footer_cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.737212" fill-rule="evenodd" clip-rule="evenodd" d="M3.8611 0.666626L1.41666 3.59996V13.8666C1.41666 14.6766 2.14627 15.3333 3.04629 15.3333H14.4537C15.3537 15.3333 16.0833 14.6766 16.0833 13.8666V3.59996L13.6389 0.666626H3.8611Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M1.41666 4.33331H16.0833" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M12.4166 7.18518C12.4166 8.53521 10.9802 9.62962 9.20824 9.62962C7.43633 9.62962 5.99991 8.53521 5.99991 7.18518" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>ADD TO CART</p>
+                </button>
+              </div>
+            </div>
+            <div class="main_grid_card">
+              <div class="main_grid_card_body">
+                <div class="main_grid_card_body_img9"></div>
+                <div class="main_grid_card_body_block1">
+                  <div class="main_grid_card_body_block1_star">
+                    <p style="color: #fff;font-size: 14px;font-weight: 400;line-height: 21px;">4.7</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00002 0.833374L10.266 5.28925L15.3334 6.00817L11.6667 9.47464L12.532 14.3718L8.00002 12.0585L3.46802 14.3718L4.33335 9.47464L0.666687 6.00817L5.73402 5.28925L8.00002 0.833374Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <p style="color: #2c2c2c;font-size: 18px;font-weight: 400;line-height: 33px;">$399</p>
+                </div>
+                <div class="main_grid_card_body_block2">
+                  <p style="color: #2c2c2c;font-size: 16px;font-weight: 400;line-height: 24px">Apple Watch Series 4 GPS</p>
+                  <p style="color: #2c2c2c;font-size: 12px;font-weight: 300;line-height: 18px">Redesigned from scratch and completely revised.</p>
+                </div>
+              </div>
+              <div class="main_grid_card_footer">
+                <button class="main_grid_card_footer_wishlist">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4524 2.51214C13.7286 1.75741 12.7468 1.33337 11.723 1.33337C10.6992 1.33337 9.71735 1.75741 8.99358 2.51214L8.24983 3.28734L7.50608 2.51214C5.99867 0.940974 3.55466 0.940975 2.04725 2.51214C0.539833 4.0833 0.539833 6.63066 2.04725 8.20182L2.791 8.97702L8.24983 14.6667L13.7087 8.97702L14.4524 8.20182C15.1765 7.44745 15.5834 6.42408 15.5834 5.35698C15.5834 4.28988 15.1765 3.26651 14.4524 2.51214Z" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>WISHLIST</p>
+                </button>
+                <button class="main_grid_card_footer_cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.737212" fill-rule="evenodd" clip-rule="evenodd" d="M3.8611 0.666626L1.41666 3.59996V13.8666C1.41666 14.6766 2.14627 15.3333 3.04629 15.3333H14.4537C15.3537 15.3333 16.0833 14.6766 16.0833 13.8666V3.59996L13.6389 0.666626H3.8611Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M1.41666 4.33331H16.0833" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.737212" d="M12.4166 7.18518C12.4166 8.53521 10.9802 9.62962 9.20824 9.62962C7.43633 9.62962 5.99991 8.53521 5.99991 7.18518" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <p>ADD TO CART</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="main_pagination">
+            <div class="main_pagination_content">
+              <button class="main_pagination_content_previous-page">
+                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="14" viewBox="0 0 7 14" fill="none">
+                  <path d="M6.21213 12.5417L0.5 6.85425L6.21213 1.16675" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <div class="main_pagination_content_pages">
+                <button class="main_pagination_content_pages_item">
+                  <p>1</p>
+                </button>
+                <button class="main_pagination_content_pages_item">
+                  <p>2</p>
+                </button>
+                <button class="main_pagination_content_pages_item">
+                  <p>3</p>
+                </button>
+                <button class="main_pagination_content_pages_item">
+                  <p>4</p>
+                </button>
+                <button class="main_pagination_content_pages_item">
+                  <p>5</p>
+                </button>
+                <button class="main_pagination_content_pages_item">
+                  <p>6</p>
+                </button>
+                <button class="main_pagination_content_pages_item">
+                  <p>7</p>
+                </button>
+                <button class="main_pagination_content_pages_item">
+                  <p>8</p>
+                </button>
+                <button class="main_pagination_content_pages_item">
+                  <p>9</p>
+                </button>
+                <button class="main_pagination_content_pages_item">
+                  <p>10</p>
+                </button>
+              </div>
+              <button class="main_pagination_content_next-page">
+                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="14" viewBox="0 0 7 14" fill="none">
+                  <path d="M0.621231 1.45825L6.33336 7.14575L0.621231 12.8333" stroke="#2C2C2C" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
